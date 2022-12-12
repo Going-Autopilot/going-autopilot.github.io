@@ -9,6 +9,8 @@ var dijon = ""
 var newDijon = ""
 var hazel = ""
 var newHazel = ""
+var rylo = ""
+var newRylo = ""
 var hazelThere = false
 var dijonThere = false
 var ryloThere = false
@@ -81,7 +83,6 @@ async function checkForChange() {
 }
 
 async function fadeCharacter(character, type) {
-  console.log(type)
   if (type === "in"){
     $("#"+character).removeClass("fadeOut").addClass("fadeIn")
   } else {
